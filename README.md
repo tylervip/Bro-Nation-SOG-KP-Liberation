@@ -1,1 +1,1 @@
-# -Bro-Nation-KP-Liberation
+# Bro-Nation-SOG-KP-Liberation
