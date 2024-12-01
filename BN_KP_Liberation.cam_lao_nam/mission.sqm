@@ -8,22 +8,22 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=582;
+		nextID=672;
 	};
 	class MarkerIDProvider
 	{
-		nextID=1;
+		nextID=2;
 	};
 	class LayerIndexProvider
 	{
-		nextID=355;
+		nextID=381;
 	};
 	class Camera
 	{
-		pos[]={8767.1797,21.876122,5594.0522};
-		dir[]={-0.71069032,-0.65379971,0.26024294};
-		up[]={-0.61407268,0.75651735,0.22486266};
-		aside[]={0.34388798,-1.323795e-06,0.93913174};
+		pos[]={8758.5391,44.907036,5566.1729};
+		dir[]={0.037139557,-0.66453725,0.74633765};
+		up[]={0.033028036,0.74725556,0.66371691};
+		aside[]={0.99876809,6.7739165e-09,-0.049701437};
 	};
 };
 binarizationWanted=0;
@@ -192,12 +192,12 @@ class Mission
 				class Item0
 				{
 					dataType="Marker";
-					position[]={8817.7363,63.484959,5581.436};
+					position[]={8808.0537,63.484962,5585.1772};
 					name="huronmarker";
 					text="Spartan 01";
 					type="b_air";
 					id=70;
-					atlOffset=62.042496;
+					atlOffset=61.945431;
 				};
 				class Item1
 				{
@@ -205,7 +205,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8749.2979,10.216805,5597.0483};
-						angles[]={-0,3.9142313,0};
+						angles[]={0,3.9142313,0};
 					};
 					side="Empty";
 					flags=4;
@@ -215,6 +215,7 @@ class Mission
 					};
 					id=79;
 					type="Flag_White_F";
+					atlOffset=9.5367432e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -260,7 +261,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8750.9863,10.216805,5603.0796};
-						angles[]={-0,4.9842052,0};
+						angles[]={0,4.9842052,0};
 					};
 					side="Empty";
 					flags=4;
@@ -269,6 +270,7 @@ class Mission
 					};
 					id=501;
 					type="vn_flag_pavn_dmg";
+					atlOffset=9.5367432e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -293,7 +295,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8750,10.216805,5600};
-						angles[]={-0,3.9142325,0};
+						angles[]={0,3.9142325,0};
 					};
 					side="Empty";
 					flags=4;
@@ -303,6 +305,7 @@ class Mission
 					};
 					id=502;
 					type="Flag_White_F";
+					atlOffset=9.5367432e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -470,8 +473,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8745.8467,6.709764,5602.0015};
-						angles[]={0,4.970861,0};
+						position[]={8754.1709,6.7097669,5598.7715};
+						angles[]={0,1.806735,-0};
 					};
 					side="Empty";
 					class Attributes
@@ -480,7 +483,7 @@ class Mission
 					};
 					id=547;
 					type="Sign_Arrow_Direction_Green_F";
-					atlOffset=0.26903868;
+					atlOffset=0.41167831;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -701,7 +704,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8770.7168,6.2895441,5589.9897};
-						angles[]={0,1.7003556,-0};
+						angles[]={0,1.7003556,0};
 					};
 					side="Empty";
 					flags=5;
@@ -736,7 +739,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8751.2217,7.84868,5591.6963};
-						angles[]={-0,0.078578033,0};
+						angles[]={0,0.078578033,0};
 					};
 					side="Empty";
 					flags=4;
@@ -871,7 +874,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8801.084,1.74,5568.3101};
-						angles[]={-0,4.9129438,0};
+						angles[]={0,4.9129438,0};
 					};
 					side="Empty";
 					flags=4;
@@ -905,7 +908,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8750.5244,5.3412328,5591.1396};
-						angles[]={0,1.7965938,-0};
+						angles[]={0,1.7965938,0};
 					};
 					side="Empty";
 					flags=5;
@@ -1112,7 +1115,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8766.875,6.2399998,5622.8315};
-						angles[]={0,0.60140359,-0};
+						angles[]={0,0.60140359,0};
 					};
 					side="Empty";
 					flags=5;
@@ -1146,7 +1149,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8767.8096,6.2616858,5617.8311};
-						angles[]={0,1.0490324,-0};
+						angles[]={0,1.0490324,0};
 					};
 					side="Empty";
 					flags=5;
@@ -1180,7 +1183,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8771.084,6.29,5593.5776};
-						angles[]={0,1.4727404,-0};
+						angles[]={0,1.4727404,0};
 					};
 					side="Empty";
 					flags=5;
@@ -1247,16 +1250,35 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={8749.3721,6.3826365,5601.0029};
-						angles[]={-0,1.8355396,-0};
+						position[]={8749.3721,6.3829999,5601.0029};
+						angles[]={0,1.8355453,0};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
+						disableSimulation=1;
 					};
 					id=559;
 					type="Land_vn_us_common_table_01";
+					atlOffset=0.00036334991;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									singleType="BOOL";
+									value=0;
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item31
 				{
@@ -1264,7 +1286,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8772.4512,6.3042402,5584.9956};
-						angles[]={0,4.5676703,-0};
+						angles[]={0,4.5676703,0};
 					};
 					side="Empty";
 					flags=5;
@@ -1274,6 +1296,7 @@ class Mission
 					};
 					id=572;
 					type="Land_vn_hut_tower_02";
+					atlOffset=4.7683716e-07;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1298,7 +1321,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8768.5674,6.3627491,5631.5269};
-						angles[]={0,3.5705321,-0};
+						angles[]={0,3.5705321,0};
 					};
 					side="Empty";
 					flags=5;
@@ -1328,7 +1351,7 @@ class Mission
 				};
 			};
 			id=86;
-			atlOffset=0.062474728;
+			atlOffset=0.062520504;
 		};
 		class Item1
 		{
@@ -1336,7 +1359,7 @@ class Mission
 			name="Capital Markers";
 			class Entities
 			{
-				items=8;
+				items=11;
 				class Item0
 				{
 					dataType="Marker";
@@ -1366,7 +1389,7 @@ class Mission
 				class Item2
 				{
 					dataType="Marker";
-					position[]={13052.56,4.8575668,13512.738};
+					position[]={13052.56,4.8579998,13512.738};
 					name="bigtown_2";
 					text="Hanoi";
 					type="n_service";
@@ -1375,7 +1398,7 @@ class Mission
 					b=1.55;
 					angle=90;
 					id=148;
-					atlOffset=3.3875668;
+					atlOffset=3.3879998;
 				};
 				class Item3
 				{
@@ -1432,7 +1455,7 @@ class Mission
 				class Item7
 				{
 					dataType="Marker";
-					position[]={15004.924,18.367981,12883.225};
+					position[]={15004.924,18.368,12883.225};
 					name="bigtown_8";
 					text="Hai Phong";
 					type="n_service";
@@ -1441,11 +1464,53 @@ class Mission
 					b=1.55;
 					angle=90;
 					id=493;
-					atlOffset=0.62400818;
+					atlOffset=0.62402725;
+				};
+				class Item8
+				{
+					dataType="Marker";
+					position[]={19666.975,4.9599609,6867.748};
+					name="bigtown_9";
+					text="Da Nang";
+					type="n_service";
+					colorName="ColorEAST";
+					a=1.55;
+					b=1.55;
+					angle=90;
+					id=585;
+					atlOffset=-3.9100647e-05;
+				};
+				class Item9
+				{
+					dataType="Marker";
+					position[]={12403.27,4.9199219,19305.465};
+					name="bigtown_10";
+					text="Tieng Tai";
+					type="n_service";
+					colorName="ColorEAST";
+					a=1.55;
+					b=1.55;
+					angle=90;
+					id=620;
+					atlOffset=-7.8201294e-05;
+				};
+				class Item10
+				{
+					dataType="Marker";
+					position[]={13033.774,19.969971,17015.889};
+					name="bigtown_11";
+					text="Son Tay ";
+					type="n_service";
+					colorName="ColorEAST";
+					a=1.55;
+					b=1.55;
+					angle=90;
+					id=637;
+					atlOffset=-2.8610229e-05;
 				};
 			};
 			id=87;
-			atlOffset=5.6862106;
+			atlOffset=-6.4457874;
 		};
 		class Item2
 		{
@@ -1453,7 +1518,7 @@ class Mission
 			name="Radiotower Markers";
 			class Entities
 			{
-				items=25;
+				items=43;
 				class Item0
 				{
 					dataType="Marker";
@@ -1533,13 +1598,13 @@ class Mission
 				class Item7
 				{
 					dataType="Marker";
-					position[]={5565.3398,248.68066,8614.6025};
+					position[]={6618.9785,248.68066,8444.4521};
 					name="tower_7";
 					text="Radio Tower";
 					type="loc_Transmitter";
 					colorName="ColorEAST";
 					id=254;
-					atlOffset=15.002716;
+					atlOffset=113.14653;
 				};
 				class Item8
 				{
@@ -1566,13 +1631,13 @@ class Mission
 				class Item10
 				{
 					dataType="Marker";
-					position[]={3272.8157,446.10645,15536.53};
+					position[]={3275.7947,451.06,15534.344};
 					name="tower_10";
 					text="Radio Tower";
 					type="loc_Transmitter";
 					colorName="ColorEAST";
 					id=257;
-					atlOffset=-4.9535522;
+					atlOffset=0.058074951;
 				};
 				class Item11
 				{
@@ -1727,9 +1792,199 @@ class Mission
 					colorName="ColorEAST";
 					id=526;
 				};
+				class Item25
+				{
+					dataType="Marker";
+					position[]={3002.8198,89.429688,4682.6245};
+					name="tower_25";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=591;
+					atlOffset=0.19961548;
+				};
+				class Item26
+				{
+					dataType="Marker";
+					position[]={1513.4514,93.693497,3614.801};
+					name="tower_26";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=592;
+				};
+				class Item27
+				{
+					dataType="Marker";
+					position[]={5484.0962,273.74127,12218.223};
+					name="tower_27";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=609;
+				};
+				class Item28
+				{
+					dataType="Marker";
+					position[]={6187.085,134.3839,14034.073};
+					name="tower_28";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=610;
+				};
+				class Item29
+				{
+					dataType="Marker";
+					position[]={7768.751,195.74559,14666.91};
+					name="tower_29";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=611;
+					atlOffset=-3.0517578e-05;
+				};
+				class Item30
+				{
+					dataType="Marker";
+					position[]={15742.594,61.515259,4317.5854};
+					name="tower_30";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=612;
+					atlOffset=-0.21904755;
+				};
+				class Item31
+				{
+					dataType="Marker";
+					position[]={14961.671,45.455566,17905.502};
+					name="tower_31";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=618;
+					atlOffset=0.026851654;
+				};
+				class Item32
+				{
+					dataType="Marker";
+					position[]={14900.434,132.82524,19107.699};
+					name="tower_32";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=623;
+				};
+				class Item33
+				{
+					dataType="Marker";
+					position[]={12635.422,55.418636,19914.703};
+					name="tower_33";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=624;
+					atlOffset=5.7220459e-05;
+				};
+				class Item34
+				{
+					dataType="Marker";
+					position[]={11619.166,265.37851,15756.346};
+					name="tower_34";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=642;
+				};
+				class Item35
+				{
+					dataType="Marker";
+					position[]={10587.896,114.16528,14556.242};
+					name="tower_35";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=643;
+					atlOffset=-2.092247;
+				};
+				class Item36
+				{
+					dataType="Marker";
+					position[]={3442.8186,57.521893,9709.9434};
+					name="tower_36";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=647;
+				};
+				class Item37
+				{
+					dataType="Marker";
+					position[]={7322.9819,40.731064,6967.4761};
+					name="tower_37";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=649;
+					atlOffset=1.1495476;
+				};
+				class Item38
+				{
+					dataType="Marker";
+					position[]={3734.0986,151.45166,10944.434};
+					name="tower_38";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=652;
+					atlOffset=-20.794296;
+				};
+				class Item39
+				{
+					dataType="Marker";
+					position[]={4421.3237,423.55099,14057.864};
+					name="tower_39";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=653;
+					atlOffset=0.00015258789;
+				};
+				class Item40
+				{
+					dataType="Marker";
+					position[]={521.97131,175.19865,8970.0381};
+					name="tower_40";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=655;
+					atlOffset=-0.47218323;
+				};
+				class Item41
+				{
+					dataType="Marker";
+					position[]={1813.5084,146.71941,12146.736};
+					name="tower_41";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=656;
+				};
+				class Item42
+				{
+					dataType="Marker";
+					position[]={4502.7285,129.52635,7947.9736};
+					name="tower_42";
+					text="Radio Tower";
+					type="loc_Transmitter";
+					colorName="ColorEAST";
+					id=658;
+				};
 			};
 			id=88;
-			atlOffset=-36.073997;
+			atlOffset=111.12595;
 		};
 		class Item3
 		{
@@ -1737,13 +1992,13 @@ class Mission
 			name="Military Base Markers";
 			class Entities
 			{
-				items=29;
+				items=40;
 				class Item0
 				{
 					dataType="Marker";
-					position[]={15246.323,65.059998,4710.3022};
+					position[]={15246.323,65.059998,4710.3018};
 					name="military";
-					text="Ho Ngoc Tao";
+					text="FOB Ho Ngoc Tao";
 					type="o_support";
 					colorName="ColorEAST";
 					id=55;
@@ -1752,29 +2007,31 @@ class Mission
 				class Item1
 				{
 					dataType="Marker";
-					position[]={17324.975,30.411013,5588.127};
+					position[]={17324.975,30.410999,5588.127};
 					name="military_1";
-					text="Ban Me Thuot";
+					text="FOB Ban Me Thuot";
 					type="o_support";
 					colorName="ColorEAST";
 					id=122;
+					atlOffset=-1.335144e-05;
 				};
 				class Item2
 				{
 					dataType="Marker";
-					position[]={20162.189,3.8,6604.1348};
+					position[]={20159.758,3.8920898,6599.9438};
 					name="military_2";
-					text="Da Nang";
+					text="FOB Da Nang";
 					type="o_support";
 					colorName="ColorEAST";
 					id=123;
+					atlOffset=0.00051259995;
 				};
 				class Item3
 				{
 					dataType="Marker";
 					position[]={18596.807,21.41,8399.0479};
 					name="military_3";
-					text="Phu Bai";
+					text="FOB Phu Bai";
 					type="o_support";
 					colorName="ColorEAST";
 					id=124;
@@ -1794,7 +2051,7 @@ class Mission
 					dataType="Marker";
 					position[]={14792.625,99.580002,6874.9912};
 					name="military_5";
-					text="Kon Tum";
+					text="FOB Kon Tum";
 					type="o_support";
 					colorName="ColorEAST";
 					id=126;
@@ -1803,19 +2060,20 @@ class Mission
 				class Item6
 				{
 					dataType="Marker";
-					position[]={11401.354,21.179003,6218.167};
+					position[]={11401.354,21.179001,6218.167};
 					name="military_6";
-					text="Quan Loi";
+					text="FSB Quan Loi";
 					type="o_support";
 					colorName="ColorEAST";
 					id=127;
+					atlOffset=-1.9073486e-06;
 				};
 				class Item7
 				{
 					dataType="Marker";
 					position[]={14771.54,244.06,9616.418};
 					name="military_7";
-					text="Mai Loc";
+					text="FOB Mai Loc";
 					type="o_support";
 					colorName="ColorEAST";
 					id=128;
@@ -1835,12 +2093,13 @@ class Mission
 				class Item9
 				{
 					dataType="Marker";
-					position[]={11359.984,70.078598,14602.849};
+					position[]={11174.044,70.492989,14803.767};
 					name="military_9";
-					text="Gia Lam Airbase";
+					text="Gia Lam North Airbase";
 					type="o_support";
 					colorName="ColorEAST";
 					id=130;
+					atlOffset=0.53872681;
 				};
 				class Item10
 				{
@@ -1963,7 +2222,7 @@ class Mission
 					dataType="Marker";
 					position[]={13733.816,434.29001,8384.1143};
 					name="military_21";
-					text="Berchtesgaden";
+					text="FSB Berchtesgaden";
 					type="o_support";
 					colorName="ColorEAST";
 					id=143;
@@ -2034,16 +2293,134 @@ class Mission
 				class Item28
 				{
 					dataType="Marker";
-					position[]={4038.3201,39.400002,10222.281};
+					position[]={3524.8511,39.400002,10152.03};
 					name="military_28";
-					text="San Bay Ban";
+					text="San Bay Ban East ";
 					type="o_support";
 					colorName="ColorEAST";
 					id=495;
 				};
+				class Item29
+				{
+					dataType="Marker";
+					position[]={1617.3984,30.592041,4341.0586};
+					name="military_29";
+					text="Maxwell West Field";
+					type="o_support";
+					colorName="ColorEAST";
+					id=590;
+					atlOffset=1.3237534;
+				};
+				class Item30
+				{
+					dataType="Marker";
+					position[]={13306.011,19.969999,17318.332};
+					name="military_30";
+					text="Khung Kiem Base II";
+					type="o_support";
+					colorName="ColorEAST";
+					id=608;
+				};
+				class Item31
+				{
+					dataType="Marker";
+					position[]={14793.127,4.9399414,18409.895};
+					name="military_31";
+					text="Ling Ho Base ";
+					type="o_support";
+					colorName="ColorEAST";
+					id=619;
+					atlOffset=-5.865097e-05;
+				};
+				class Item32
+				{
+					dataType="Marker";
+					position[]={11986.151,29.930008,18328.197};
+					name="military_32";
+					text="Khung Kiem Base";
+					type="o_support";
+					colorName="ColorEAST";
+					id=626;
+					atlOffset=7.6293945e-06;
+				};
+				class Item33
+				{
+					dataType="Marker";
+					position[]={11345.391,67.96505,14063.466};
+					name="military_33";
+					text="Gia Lam South Airbase";
+					type="o_support";
+					colorName="ColorEAST";
+					id=639;
+					atlOffset=-2.0635147;
+				};
+				class Item34
+				{
+					dataType="Marker";
+					position[]={10945.817,69.665779,14420.025};
+					name="military_34";
+					text="Gia Lam West Airbase";
+					type="o_support";
+					colorName="ColorEAST";
+					id=640;
+					atlOffset=-0.48912811;
+				};
+				class Item35
+				{
+					dataType="Marker";
+					position[]={11902.346,71.653809,14382.807};
+					name="military_35";
+					text="Gia Lam East Airbase";
+					type="o_support";
+					colorName="ColorEAST";
+					id=641;
+					atlOffset=1.293808;
+				};
+				class Item36
+				{
+					dataType="Marker";
+					position[]={3202.2415,28.862305,3909.7278};
+					name="military_36";
+					text="Maxwell East Field";
+					type="o_support";
+					colorName="ColorEAST";
+					id=645;
+					atlOffset=0.22540665;
+				};
+				class Item37
+				{
+					dataType="Marker";
+					position[]={2288.627,29.908001,4010.2881};
+					name="military_37";
+					text="FOB Maxwell";
+					type="o_support";
+					colorName="ColorEAST";
+					id=646;
+					atlOffset=-0.00027084351;
+				};
+				class Item38
+				{
+					dataType="Marker";
+					position[]={4364.0762,39.400002,10160.825};
+					name="military_38";
+					text="San Bay Ban West";
+					type="o_support";
+					colorName="ColorEAST";
+					id=650;
+				};
+				class Item39
+				{
+					dataType="Marker";
+					position[]={2199.3931,197.67999,13421.961};
+					name="military_39";
+					text="Phok Ham Camp";
+					type="o_support";
+					colorName="ColorEAST";
+					id=654;
+				};
 			};
 			id=89;
-			atlOffset=55.707722;
+			atlOffset=-6.5315247;
 		};
 		class Item4
 		{
@@ -2051,7 +2428,7 @@ class Mission
 			name="Factory Markers";
 			class Entities
 			{
-				items=25;
+				items=27;
 				class Item0
 				{
 					dataType="Marker";
@@ -2153,13 +2530,13 @@ class Mission
 				class Item9
 				{
 					dataType="Marker";
-					position[]={2201.6709,195.89355,13420.719};
+					position[]={3212.0349,206.67,13654.484};
 					name="factory_9";
-					text="Plain of Jars Storage";
+					text="Ke Chau Storage";
 					type="loc_Fuelstation";
 					colorName="ColorEAST";
 					id=203;
-					atlOffset=-1.786438;
+					atlOffset=-300.05707;
 				};
 				class Item10
 				{
@@ -2304,13 +2681,13 @@ class Mission
 				class Item23
 				{
 					dataType="Marker";
-					position[]={1331.9604,76.121582,12306.097};
+					position[]={1672.0167,69.998535,12922.813};
 					name="factory_23";
 					text="Efa Koli Plantation";
 					type="loc_Fuelstation";
 					colorName="ColorEAST";
 					id=224;
-					atlOffset=-1.6248932;
+					atlOffset=-22.428871;
 				};
 				class Item24
 				{
@@ -2323,9 +2700,31 @@ class Mission
 					id=379;
 					atlOffset=-3.3929214;
 				};
+				class Item25
+				{
+					dataType="Marker";
+					position[]={16876.029,9.1899996,9075.2051};
+					name="factory_25";
+					text="Hue Industrial";
+					type="loc_Fuelstation";
+					colorName="ColorEAST";
+					id=588;
+					atlOffset=0.39081955;
+				};
+				class Item26
+				{
+					dataType="Marker";
+					position[]={14698.489,5.881,13354.437};
+					name="factory_26";
+					text="Hai Phong Harbor";
+					type="loc_Fuelstation";
+					colorName="ColorEAST";
+					id=607;
+					atlOffset=0.18835115;
+				};
 			};
 			id=90;
-			atlOffset=-86.510666;
+			atlOffset=-113.81392;
 		};
 		class Item5
 		{
@@ -2333,7 +2732,7 @@ class Mission
 			name="City Markers";
 			class Entities
 			{
-				items=46;
+				items=64;
 				class Item0
 				{
 					dataType="Marker";
@@ -2508,7 +2907,7 @@ class Mission
 					dataType="Marker";
 					position[]={3390.5569,10.672,7743.7251};
 					name="capture_16";
-					text="Sihanoukville Village";
+					text="Sihanoukville Village South";
 					type="n_art";
 					colorName="ColorEAST";
 					id=180;
@@ -2560,13 +2959,13 @@ class Mission
 				class Item21
 				{
 					dataType="Marker";
-					position[]={16879.365,44.005001,12003.283};
+					position[]={16879.818,44.004883,11962.107};
 					name="capture_21";
 					text="Sam Song";
 					type="n_art";
 					colorName="ColorEAST";
 					id=185;
-					atlOffset=28.507242;
+					atlOffset=27.376907;
 				};
 				class Item22
 				{
@@ -2823,9 +3222,202 @@ class Mission
 					colorName="ColorEAST";
 					id=494;
 				};
+				class Item46
+				{
+					dataType="Marker";
+					position[]={19448.422,31.389999,4576.7051};
+					name="capture_46";
+					text="Lac My";
+					type="n_art";
+					colorName="ColorEAST";
+					id=582;
+				};
+				class Item47
+				{
+					dataType="Marker";
+					position[]={19180.273,19.658001,5328.3398};
+					name="capture_47";
+					text="An Hoa";
+					type="n_art";
+					colorName="ColorEAST";
+					id=583;
+					atlOffset=-0.00028038025;
+				};
+				class Item48
+				{
+					dataType="Marker";
+					position[]={19348.5,23.483643,5657.0957};
+					name="capture_48";
+					text="Binh Minh";
+					type="n_art";
+					colorName="ColorEAST";
+					id=584;
+					atlOffset=-0.017356873;
+				};
+				class Item49
+				{
+					dataType="Marker";
+					position[]={20161.994,18.642,7250.9351};
+					name="capture_49";
+					text="Radar Complex";
+					type="n_art";
+					colorName="ColorEAST";
+					id=586;
+					atlOffset=0.037513733;
+				};
+				class Item50
+				{
+					dataType="Marker";
+					position[]={19234.432,21.98,7240.5542};
+					name="capture_50";
+					text="Hoa Lien";
+					type="n_art";
+					colorName="ColorEAST";
+					id=587;
+				};
+				class Item51
+				{
+					dataType="Marker";
+					position[]={17058.928,7.1408691,9860.1816};
+					name="capture_51";
+					text="Hue Citaldel";
+					type="n_art";
+					colorName="ColorEAST";
+					id=589;
+					atlOffset=-0.98658466;
+				};
+				class Item52
+				{
+					dataType="Marker";
+					position[]={2401.0791,2.2190001,4342.4292};
+					name="capture_52";
+					text="Dharma Village";
+					type="n_art";
+					colorName="ColorEAST";
+					id=593;
+					atlOffset=0.00029397011;
+				};
+				class Item53
+				{
+					dataType="Marker";
+					position[]={2576.0171,4.3730001,3085.623};
+					name="capture_53";
+					text="Dharma Docks";
+					type="n_art";
+					colorName="ColorEAST";
+					id=594;
+					atlOffset=-0.00035095215;
+				};
+				class Item54
+				{
+					dataType="Marker";
+					position[]={10353.646,12.543,4716.4429};
+					name="capture_54";
+					text="Hon Ba Village";
+					type="n_art";
+					colorName="ColorEAST";
+					id=604;
+					atlOffset=0.062314034;
+				};
+				class Item55
+				{
+					dataType="Marker";
+					position[]={15094.429,7.0100002,11092.307};
+					name="capture_55";
+					text="Lang Mau";
+					type="n_art";
+					colorName="ColorEAST";
+					id=605;
+				};
+				class Item56
+				{
+					dataType="Marker";
+					position[]={14134.441,7.9399414,12769.849};
+					name="capture_56";
+					text="Camp Phoang Thi";
+					type="n_art";
+					colorName="ColorEAST";
+					id=606;
+					atlOffset=-0.072966576;
+				};
+				class Item57
+				{
+					dataType="Marker";
+					position[]={13449.65,4.2719998,18766.564};
+					name="capture_57";
+					text="Tong Moo";
+					type="n_art";
+					colorName="ColorEAST";
+					id=621;
+					atlOffset=0.00042772293;
+				};
+				class Item58
+				{
+					dataType="Marker";
+					position[]={14325.526,2.97,18089.273};
+					name="capture_58";
+					text="Xom Ram";
+					type="n_art";
+					colorName="ColorEAST";
+					id=622;
+				};
+				class Item59
+				{
+					dataType="Marker";
+					position[]={13081.904,27.040039,19774.871};
+					name="capture_59";
+					text="Quyen";
+					type="n_art";
+					colorName="ColorEAST";
+					id=625;
+					atlOffset=3.8146973e-05;
+				};
+				class Item60
+				{
+					dataType="Marker";
+					position[]={10476.347,320.43701,18076.35};
+					name="capture_60";
+					text="Pak Noi";
+					type="n_art";
+					colorName="ColorEAST";
+					id=638;
+					atlOffset=-0.28509521;
+				};
+				class Item61
+				{
+					dataType="Marker";
+					position[]={11779.818,19.969971,13183.149};
+					name="capture_61";
+					text="West Hanoi";
+					type="n_art";
+					colorName="ColorEAST";
+					id=644;
+					atlOffset=-2.8610229e-05;
+				};
+				class Item62
+				{
+					dataType="Marker";
+					position[]={3630.625,7.7600002,8967.7734};
+					name="capture_62";
+					text="Sihanoukville Village North";
+					type="n_art";
+					colorName="ColorEAST";
+					id=648;
+				};
+				class Item63
+				{
+					dataType="Marker";
+					position[]={5100.9229,87.398003,9481.2168};
+					name="capture_64";
+					text="Thung Lung Cao";
+					type="n_art";
+					colorName="ColorEAST";
+					id=657;
+					atlOffset=0.00032806396;
+				};
 			};
 			id=91;
-			atlOffset=-64.873009;
+			atlOffset=-18.944054;
 		};
 		class Item6
 		{
@@ -2833,7 +3425,7 @@ class Mission
 			name="Opfor Spawnpoints";
 			class Entities
 			{
-				items=171;
+				items=194;
 				class Item0
 				{
 					dataType="Marker";
@@ -4041,11 +4633,11 @@ class Mission
 				class Item134
 				{
 					dataType="Marker";
-					position[]={14319.213,-0.71027184,18085.402};
+					position[]={14254.663,-0.71020508,18013.408};
 					name="opfor_point_134";
 					type="Empty";
 					id=412;
-					atlOffset=-3.6802719;
+					atlOffset=-3.6802051;
 				};
 				class Item135
 				{
@@ -4371,9 +4963,195 @@ class Mission
 					id=491;
 					atlOffset=-7.6602707;
 				};
+				class Item171
+				{
+					dataType="Marker";
+					position[]={2555.772,5.268456,3175.0012};
+					name="opfor_point_171";
+					type="Empty";
+					id=596;
+				};
+				class Item172
+				{
+					dataType="Marker";
+					position[]={1610.917,30.18,4385.499};
+					name="opfor_point_172";
+					type="Empty";
+					id=597;
+				};
+				class Item173
+				{
+					dataType="Marker";
+					position[]={3228.3621,28.770174,3927.4133};
+					name="opfor_point_173";
+					type="Empty";
+					id=598;
+				};
+				class Item174
+				{
+					dataType="Marker";
+					position[]={2913.772,29.655558,4297.8701};
+					name="opfor_point_174";
+					type="Empty";
+					id=599;
+				};
+				class Item175
+				{
+					dataType="Marker";
+					position[]={2602.1995,30.003197,4098.3228};
+					name="opfor_point_175";
+					type="Empty";
+					id=600;
+				};
+				class Item176
+				{
+					dataType="Marker";
+					position[]={1950.7399,10.571468,3513.4382};
+					name="opfor_point_176";
+					type="Empty";
+					id=601;
+					atlOffset=-7.6293945e-06;
+				};
+				class Item177
+				{
+					dataType="Marker";
+					position[]={6850.73,4.0165038,4264.6973};
+					name="opfor_point_177";
+					type="Empty";
+					id=602;
+				};
+				class Item178
+				{
+					dataType="Marker";
+					position[]={8208.7227,1.2185705,4929.3467};
+					name="opfor_point_178";
+					type="Empty";
+					id=603;
+				};
+				class Item179
+				{
+					dataType="Marker";
+					position[]={12898.976,5.1648903,19418.814};
+					name="opfor_point_179";
+					type="Empty";
+					id=613;
+				};
+				class Item180
+				{
+					dataType="Marker";
+					position[]={12245.229,4.9499998,19360.135};
+					name="opfor_point_180";
+					type="Empty";
+					id=614;
+				};
+				class Item181
+				{
+					dataType="Marker";
+					position[]={12458.361,2.5946143,19769.795};
+					name="opfor_point_181";
+					type="Empty";
+					id=615;
+				};
+				class Item182
+				{
+					dataType="Marker";
+					position[]={12880.479,4.9400001,18886.809};
+					name="opfor_point_182";
+					type="Empty";
+					id=616;
+				};
+				class Item183
+				{
+					dataType="Marker";
+					position[]={13321.972,4.9400001,18830.064};
+					name="opfor_point_183";
+					type="Empty";
+					id=617;
+				};
+				class Item184
+				{
+					dataType="Marker";
+					position[]={11477.523,4.9400001,17541.746};
+					name="opfor_point_184";
+					type="Empty";
+					id=627;
+				};
+				class Item185
+				{
+					dataType="Marker";
+					position[]={11806.91,4.9299998,17649.697};
+					name="opfor_point_185";
+					type="Empty";
+					id=628;
+				};
+				class Item186
+				{
+					dataType="Marker";
+					position[]={11662.977,4.9299998,17951.404};
+					name="opfor_point_186";
+					type="Empty";
+					id=629;
+				};
+				class Item187
+				{
+					dataType="Marker";
+					position[]={11819.365,4.9299998,17055.971};
+					name="opfor_point_187";
+					type="Empty";
+					id=630;
+				};
+				class Item188
+				{
+					dataType="Marker";
+					position[]={12442.157,4.9299998,17580.498};
+					name="opfor_point_188";
+					type="Empty";
+					id=631;
+				};
+				class Item189
+				{
+					dataType="Marker";
+					position[]={12796.457,19.690868,16960.477};
+					name="opfor_point_189";
+					type="Empty";
+					id=632;
+				};
+				class Item190
+				{
+					dataType="Marker";
+					position[]={13019.278,19.969999,17226.199};
+					name="opfor_point_190";
+					type="Empty";
+					id=633;
+				};
+				class Item191
+				{
+					dataType="Marker";
+					position[]={13354.2,21.087969,16689.215};
+					name="opfor_point_191";
+					type="Empty";
+					id=634;
+				};
+				class Item192
+				{
+					dataType="Marker";
+					position[]={13590.86,19.969971,16712.742};
+					name="opfor_point_192";
+					type="Empty";
+					id=635;
+					atlOffset=-2.8610229e-05;
+				};
+				class Item193
+				{
+					dataType="Marker";
+					position[]={13055.83,19.969999,17458.006};
+					name="opfor_point_193";
+					type="Empty";
+					id=636;
+				};
 			};
 			id=92;
-			atlOffset=52.316544;
+			atlOffset=0.14112282;
 		};
 		class Item7
 		{
@@ -7079,7 +7857,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={11382.215,80.860001,5748.2637};
-				angles[]={-0,5.910605,0};
+				angles[]={0,5.910605,0};
 			};
 			areaSize[]={4.1243744,0,5.9602566};
 			flags=1;
