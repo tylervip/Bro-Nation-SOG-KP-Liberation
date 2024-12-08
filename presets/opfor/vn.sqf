@@ -64,7 +64,9 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    "vn_b_armor_m113_acav_04"
+    "vn_b_wheeled_m151_mg_01_rok_army",
+    "vn_b_wheeled_m151_mg_06_rok_army",
+    "vn_b_wheeled_m151_mg_02_rok_army"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
@@ -74,14 +76,16 @@ opfor_vehicles = [
     "vn_b_armor_m113_01_aus_army",
     "vn_b_armor_m113_acav_04",
     "vn_b_armor_m113_acav_02",
-    "vn_b_armor_m48_01_01"
+    "vn_b_armor_m48_01_01",
+    "vn_b_armor_m125_01_aus_army"
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
     "vn_b_wheeled_m54_mg_01",
-    "vn_b_armor_m113_acav_04",
-    "vn_b_armor_m113_01_aus_army"
+    "vn_b_armor_m113_acav_02",
+    "vn_b_armor_m113_01_aus_army",
+    "vn_b_wheeled_lr2a_mg_02_aus_army"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
@@ -92,14 +96,16 @@ opfor_battlegroup_vehicles = [
     "vn_b_armor_m113_01_aus_army",
     "vn_b_armor_m113_acav_04",
     "vn_b_armor_m113_acav_02",
-    "vn_b_armor_m48_01_01"
+    "vn_b_armor_m48_01_01",
+    "vn_b_armor_m125_01_aus_army"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "vn_b_wheeled_m54_mg_01",
     "vn_b_armor_m113_01_aus_army",
-    "vn_b_armor_m113_acav_04"
+    "vn_b_armor_m113_acav_04",
+    "vn_b_wheeled_lr2a_mg_02_aus_army"
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
