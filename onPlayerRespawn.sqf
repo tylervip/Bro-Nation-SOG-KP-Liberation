@@ -12,8 +12,8 @@ if (isNil "GRLIB_respawn_loadout") then {
     removeGoggles player;
     if (KP_liberation_arsenal == 17) then {
         removeUniform player;
-        player addUniform "vn_b_uniform_macv_04_01";
-        player linkItem "vn_b_item_map";
+        player addUniform "vn_o_uniform_vc_01_05";
+        player linkItem "vn_o_item_map";
         player linkItem "vn_b_item_compass";
         player linkItem "vn_b_item_watch";
         player linkItem "vn_b_item_radio_urc10";
