@@ -85,7 +85,8 @@ opfor_vehicles_low_intensity = [
     "vn_b_wheeled_m54_mg_01",
     "vn_b_armor_m113_acav_02",
     "vn_b_armor_m113_01_aus_army",
-    "vn_b_wheeled_lr2a_mg_02_aus_army"
+    "vn_b_wheeled_lr2a_mg_02_aus_army",
+    "vn_b_wheeled_lr2a_02_nz_army"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
@@ -97,7 +98,8 @@ opfor_battlegroup_vehicles = [
     "vn_b_armor_m113_acav_04",
     "vn_b_armor_m113_acav_02",
     "vn_b_armor_m48_01_01",
-    "vn_b_armor_m125_01_aus_army"
+    "vn_b_armor_m125_01_aus_army",
+    "vn_b_wheeled_lr2a_02_nz_army"
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
@@ -111,8 +113,8 @@ opfor_battlegroup_vehicles_low_intensity = [
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.    */
 opfor_troup_transports = [
-    "vn_b_wheeled_m54_01_usmc",
-    "vn_b_wheeled_m54_01_sog"
+    "vn_b_wheeled_lr2a_01_aus_army",
+    "vn_b_wheeled_lr2a_02_nz_army"
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
