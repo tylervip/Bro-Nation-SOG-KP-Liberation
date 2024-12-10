@@ -35,6 +35,7 @@ wait_to_spawn_sector = compileFinal preprocessFileLineNumbers "scripts\server\se
 // Globals
 active_sectors = []; publicVariable "active_sectors";
 
+execVM "dynamicZeus.sqf";
 execVM "scripts\server\base\startgame.sqf";
 execVM "scripts\server\base\huron_manager.sqf";
 execVM "scripts\server\base\startvehicle_spawn.sqf";

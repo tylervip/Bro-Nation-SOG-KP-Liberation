@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=672;
+		nextID=673;
 	};
 	class MarkerIDProvider
 	{
@@ -16,18 +16,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=381;
+		nextID=394;
 	};
 	class Camera
 	{
-		pos[]={8758.5391,44.907036,5566.1729};
-		dir[]={0.037139557,-0.66453725,0.74633765};
-		up[]={0.033028036,0.74725556,0.66371691};
-		aside[]={0.99876809,6.7739165e-09,-0.049701437};
+		pos[]={-1095.4032,226.57468,10633.897};
+		dir[]={0.40596363,-0.7387228,0.538055};
+		up[]={0.44493264,0.67400777,0.58970433};
+		aside[]={0.79828292,-2.7939677e-07,-0.60230464};
 	};
 };
 binarizationWanted=0;
-sourceName="kp_liberation";
+sourceName="Bro-Nation-SOG-KP-Liberation";
 addons[]=
 {
 	"A3_Ui_F",
@@ -181,7 +181,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=19;
+		items=20;
 		class Item0
 		{
 			dataType="Layer";
@@ -474,7 +474,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={8754.1709,6.7097669,5598.7715};
-						angles[]={0,1.806735,-0};
+						angles[]={0,1.806735,0};
 					};
 					side="Empty";
 					class Attributes
@@ -7926,6 +7926,74 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item19
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={-1077.634,202.13358,10647.78};
+			};
+			name="BN_Zeus";
+			id=672;
+			type="ModuleCurator_F";
+			atlOffset=-1.5258789e-05;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
 			};
 		};
 	};
