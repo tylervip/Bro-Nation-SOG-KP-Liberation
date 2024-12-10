@@ -17,12 +17,6 @@
 
 #define ZEUSVAR(var) (format ["KPLIB_zeus_%1", var])
 
-// Steam UIDs for Zeus access
-private _allowedZeusUIDs = [
-    "76561197984639361", // Numbnuts
-    "76561198101839623"  // Sasquatch 
-];
-
 if (isServer) then {
 
     // delete old Liberation mission placed Zeus module
@@ -37,9 +31,6 @@ if (isServer) then {
 
         if (isNull _player) exitWith {};
         private _uid = getPlayerUID _player;
-
-        // Check if the player is allowed to use Zeus
-        if (!(_uid in _allowedZeusUIDs)) exitWith {};
 
         // check if there's already a managed zeus module for this player, if so we can just reassign
         private _oldManagedZeus = missionNamespace getVariable [ZEUSVAR(_uid), objNull];
