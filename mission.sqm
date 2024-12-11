@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=673;
+		nextID=675;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=394;
+		nextID=407;
 	};
 	class Camera
 	{
-		pos[]={-1095.4032,226.57468,10633.897};
-		dir[]={0.40596363,-0.7387228,0.538055};
-		up[]={0.44493264,0.67400777,0.58970433};
-		aside[]={0.79828292,-2.7939677e-07,-0.60230464};
+		pos[]={-1047.6385,322.19315,10589.954};
+		dir[]={-0.29160982,-0.72072375,0.62890464};
+		up[]={-0.30317849,0.69322234,0.65385437};
+		aside[]={0.90721911,0,0.42065838};
 	};
 };
 binarizationWanted=0;
@@ -181,7 +181,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=20;
+		items=22;
 		class Item0
 		{
 			dataType="Layer";
@@ -7977,6 +7977,143 @@ class Mission
 						{
 							singleType="STRING";
 							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item20
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={-1083.785,201.65453,10643.045};
+				angles[]={6.2164392,0,0.034803573};
+			};
+			init="    [] spawn {" \n "        while {isNil ""stopCuratorLoop""} do {" \n "        { _x addCuratorEditableObjects [vehicles + allUnits]} forEach allCurators;" \n "        uisleep 10;" \n "        };" \n "    };";
+			id=673;
+			type="ModuleCurator_F";
+			atlOffset=-1.5258789e-05;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="76561199175533497";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="Cypher";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=2;
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item21
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={-1083.785,201.65454,10643.045};
+				angles[]={6.216444,0,0.034801863};
+			};
+			init="    [] spawn {" \n "        while {isNil ""stopCuratorLoop""} do {" \n "        { _x addCuratorEditableObjects [vehicles + allUnits]} forEach allCurators;" \n "        uisleep 10;" \n "        };" \n "    };";
+			id=674;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="76561197984639361";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							singleType="STRING";
+							value="NumbNuts";
 						};
 					};
 				};
