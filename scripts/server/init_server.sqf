@@ -35,7 +35,6 @@ wait_to_spawn_sector = compileFinal preprocessFileLineNumbers "scripts\server\se
 // Globals
 active_sectors = []; publicVariable "active_sectors";
 
-execVM "dynamicZeus.sqf";
 execVM "scripts\server\base\startgame.sqf";
 execVM "scripts\server\base\huron_manager.sqf";
 execVM "scripts\server\base\startvehicle_spawn.sqf";
@@ -65,6 +64,7 @@ execVM "scripts\server\resources\recalculate_timer.sqf";
 execVM "scripts\server\resources\recalculate_timer_sector.sqf";
 execVM "scripts\server\resources\unit_cap.sqf";
 execVM "scripts\server\sector\lose_sectors.sqf";
+execVM "scripts\server\game\dynamicZeus.sqf";
 
 KPLIB_fsm_sectorMonitor = [] call KPLIB_fnc_sectorMonitor;
 if (KP_liberation_high_command) then {KPLIB_fsm_highcommand = [] call KPLIB_fnc_highcommand;};
