@@ -12,17 +12,11 @@ if (isNil "GRLIB_respawn_loadout") then {
     removeGoggles player;
     if (KP_liberation_arsenal == 17) then {
         removeUniform player;
-        player addUniform "vn_o_uniform_vc_01_06";
-        player addVest "vn_o_vest_02";
-        player addBackpack "vn_o_pack_01";
+        player addUniform "vn_b_uniform_macv_04_01";
         player linkItem "vn_b_item_map";
         player linkItem "vn_b_item_compass";
         player linkItem "vn_b_item_watch";
         player linkItem "vn_b_item_radio_urc10";
-        player addWeapon "vn_ppsh41";
-        player addMagazine "vn_ppsh41_mag";
-        player addMagazine "vn_ppsh41_mag";
-        player addMagazine "vn_ppsh41_mag";
     };
 } else {
     sleep 4;
