@@ -5594,6 +5594,20 @@
             <Korean>민간인 %가 사망하였다!</Korean>
             <Czech>Civilista jménem %1 byl zabit jednotkami BLUFOR!</Czech>
         </Key>
+        <Key ID="STR_CR_VILLAGERS_TALK">
+            <English>The villagers are talking about %1!</English>
+            <German>Die Dorfbewohner reden über %1!</German>
+        </Key>
+        <Key ID="STR_CR_VILLAGERS_ANGRY">
+            <English>The villagers are angry at %1!</English>
+            <German>Die Dorfbewohner sind wütend auf %1!</German>
+        </Key>
+        <Key ID="STR_CR_VILLAGERS_NO_LONGER_HUNTING">
+            <Original>The villagers are no longer hunting %1, but they are still angry!</Original>
+        </Key>
+        <Key ID="STR_CR_VILLAGERS_REVENGE">
+            <Original>The villagers have gotten their revenge on %1!</Original>
+        </Key>
         <Key ID="STR_CR_VEHICLEMSG">
             <English>A civilian's vehicle was seized!</English>
             <German>Ein Zivilfahrzeug wurde beschlagnahmt!</German>
