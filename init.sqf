@@ -46,6 +46,8 @@ if (!isDedicated && hasInterface) then {
     waitUntil {alive player};
     if (debug_source != name player) then {debug_source = name player};
     [] call compileFinal preprocessFileLineNumbers "scripts\client\init_client.sqf";
+    CHBN_adjustBrightness = 0.9; // Adjust between 0 (disabled) and 1 (bright)
+    CHBN_adjustColor = [0.3, 0.5, 1]; // Default color adjustment
 } else {
     setViewDistance 1600;
 };
