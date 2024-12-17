@@ -46,6 +46,7 @@ while {_units_near > 0} do {
             {_civ enableAI _x} forEach ["ANIM", "TARGET", "AUTOTARGET", "MOVE"];
             [4, [(name _civ)]] remoteExec ["KPLIB_fnc_crGlobalMsg"];
             [KP_liberation_cr_wounded_gain] call F_cr_changeCR;
+            [_civ] execVM "scripts\shared\strike_reduction.sqf";
             _healed_civs pushBack _civ;
             stats_civilians_healed = stats_civilians_healed +1;
         }

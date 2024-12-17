@@ -35,7 +35,6 @@ wait_to_spawn_sector = compileFinal preprocessFileLineNumbers "scripts\server\se
 // Globals
 active_sectors = []; publicVariable "active_sectors";
 
-execVM "scripts\server\game\dynamicZeus_cba.sqf"; // Zeus (please work)
 execVM "scripts\server\base\startgame.sqf";
 execVM "scripts\server\base\huron_manager.sqf";
 execVM "scripts\server\base\startvehicle_spawn.sqf";
@@ -43,6 +42,7 @@ execVM "scripts\server\base\startvehicle_spawn.sqf";
 execVM "scripts\server\battlegroup\counter_battlegroup.sqf";
 execVM "scripts\server\battlegroup\random_battlegroups.sqf";
 execVM "scripts\server\battlegroup\readiness_increase.sqf";
+execVM "scripts\server\game\playerEventHandlers.sqf"; // Player connection/disconnection handling
 execVM "scripts\server\game\apply_default_permissions.sqf";
 execVM "scripts\server\game\cleanup_vehicles.sqf";
 if (!KP_liberation_fog_param) then {execVM "scripts\server\game\fucking_set_fog.sqf";};
