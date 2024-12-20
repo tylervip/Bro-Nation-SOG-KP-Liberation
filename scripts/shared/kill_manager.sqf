@@ -245,6 +245,10 @@ if (isServer) then {
                                             break;
                                         };
                                     };
+
+                                    if (!alive _bomber) then {
+                                        ["Bomber killed; respawning in 5 minutes", "DEBUG"] call KPLIB_fnc_log;
+                                    };
                                 };
                             };
 
