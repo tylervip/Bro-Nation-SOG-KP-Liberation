@@ -13,8 +13,8 @@
     Or not, just don't try!
 */
 FOB_typename = "Land_vn_hut_mont_01";                             // This is the main FOB HQ building.
-FOB_box_typename = "B_Slingload_01_Cargo_F";                            // This is the FOB as a container. (Land_vn_cargo20_military_green_f could be usable when it is slingloadable.
-FOB_truck_typename = "vn_o_wheeled_z157_02";                             // This is the FOB as a vehicle.
+FOB_box_typename = "vn_us_komex_medium_01";                            // This is the FOB as a container. (Land_vn_cargo20_military_green_f could be usable when it is slingloadable.
+FOB_truck_typename = "vn_o_armor_btr50pk_01_nva65";                             // This is the FOB as a vehicle.
 Arsenal_typename = "Land_vn_us_weapons_stack2";                         // This is the virtual arsenal as portable supply crates.
 Respawn_truck_typename = "vn_o_wheeled_z157_repair_nva65";                 // This is the mobile respawn (and medical) truck. (Not medical or optimal but at least less emersion breaking that HEMTT)
 huron_typename = "vn_o_air_mi2_02_02";                                 // This is Spartan 01, a multipurpose mobile respawn as a helicopter.
@@ -288,5 +288,7 @@ elite_vehicles = [
     "vn_b_air_ah1g_03",                                   // AH-1G Cobra (AT)
     "vn_b_air_ah1g_04",                                   // AH-1G Cobra (CAS)
     "vn_b_air_ah1gd_05",                                  // AH-1G Cobra (FAC)
-    "vn_b_air_ah1g_01"                                   // AH-1G Cobra (FFAR)
+    "vn_b_air_ah1g_01",                                   // AH-1G Cobra (FFAR)
+    "vn_b_air_uh1d_02_01",
+    "vn_b_air_uh1d_03_06"
 ];
